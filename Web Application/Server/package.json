@@ -1,0 +1,14 @@
+{
+  "name": "realhack-registration",
+  "version": "0.0.1",
+  "description": "app for realhack registration process",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mysql": "^2.16.0",
+    "socket.io": "^1.7.4",
+    "text-to-speech-js": "^1.1.8"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

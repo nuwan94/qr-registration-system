@@ -1,0 +1,184 @@
+body {
+    max-width: 100%;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    background: url('/img/back.png') no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.container>.row {
+    margin-bottom: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.message-container {
+    position: relative;
+}
+
+#message-box {
+    max-height: 600px;
+    min-height: 600px;
+    padding-bottom: 100px;
+    overflow-y: scroll;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.msg-box-shadow {
+    position: absolute;
+    height: 100px;
+    top: -2px;
+    left: 0;
+    width: 100%;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    z-index: 99;
+}
+
+.message img {
+    vertical-align: middle;
+}
+
+
+.message:first-child {
+    margin-top: 3em;
+}
+
+.message {
+    min-height: 450px;
+    clear: both;
+    position: relative;
+    padding: 1em 0;
+    overflow: visible;
+    padding-right: 100px;
+}
+
+.profile {
+    float: left;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    margin: .5em 1em;
+    vertical-align: middle;
+}
+
+.brand-logo {
+    margin-top: 1em;
+}
+
+.message b {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #6e0b4b;
+    padding: 3px 10px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.icon-reg {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 1em;
+    left: 0;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+}
+
+.icon-row {
+    width: 64px;
+    height: 64px;
+    margin: 25px 20px 0 0;
+}
+
+.rounded {
+    border-radius: 100%;
+}
+
+.icon-msg {
+    width: 1.4em;
+    height: 1.4em;
+    vertical-align: middle;
+}
+
+.stat-board {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    line-height: 2em;
+    font-size: 1em;
+    text-align: left;
+    padding: 20px;
+    /* font-weight: bold; */
+    color: #a51d6f;
+}
+
+.stat-board .icon {
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+}
+
+.stat-board span {
+    float: right;
+}
+
+#queue {
+    position: absolute;
+    bottom: 0;
+    left: 300px;
+    /* transform: scale(-1, 1); */
+    color: #a51d6f;
+}
+
+#queue img {
+    float: right;
+}
+
+.message .tszie,
+.message .fpref {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    padding: 10px 20px;
+    border-radius: 50%;
+    color: #fff;
+    background: #0089ec;
+    font-size: 2em;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.message .fpref.Veg {
+    background: #4caf50;
+}
+
+.message .fpref.NonVeg {
+    background: #312005;
+}
+
+.message .fpref.shifted {
+    top: 220px;
+}
